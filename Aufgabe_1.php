@@ -21,7 +21,8 @@
                 <a class="nav-link Log in" href="#">Login</a>
             </li>
             <li class="list-group-item">
-                <a class="nav-link Log in" href="#">Projekt</a>
+                <a href="Projekte.php">
+                    Projekte </a>
             </li>
             <li class="list-group-item">   <a class="nav-link Log in" href="#">Aktuelles Projekt </a>
 
@@ -75,19 +76,6 @@
 
 
     </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 </body>
 
