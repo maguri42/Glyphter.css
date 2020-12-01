@@ -18,10 +18,12 @@
         <div class="col-2">
             <ul class="list-group">
                 <li class="list-group-item">
-                    <a class="nav-link Log in" href="#">Login</a>
+                    <a class="nav-link Log in" href="Übung2.php"> Login</a>
                 </li>
                 <li class="list-group-item">
-                    <a class="nav-link Log in" href="#">Projekte</a>
+                    <a class="nav-link Log in" href="Projekte.php">
+                        Projekte </a>
+                </li>
                 </li>
                 <li class="list-group-item">   <a class="nav-link Log in" href="Aufgabe_1.php"> Aktuelles Projekt </a>
 
@@ -40,37 +42,50 @@
         <div class="col">
             <div class="row">
                 <div class="col" >
-                    <div card="card">
-                        <div class ="card-header"> To Do : </div>
-                    </div>
-                    <ul class="list-group">
-                        <li class="list-group-item">HTML Datei erstellen (Max Mustermann)</li>
-                        <li class="list-group-item">CSS Datei erstellen (Max Mustermann)</li>
-                    </ul>
-                </div>
-                <div class="col" >
-                    <div card="card">
-                        <div class ="card-header"> Erledigt :</div>
-                    </div>
-                    <ul class="list-group">
-                        <li class="list-group-item">Pc einschalten (Petra Müller)</li>
-                        <li class="list-group-item">Kaffee trinken (Petra Müller)</li>
-                    </ul>
-                </div>
+                    <form>
+                        <h4>Projekt Auswählen:</h4>
+                        <select class="custom-select">
+                         <option selected disabled >-bitte auswählen-</option>
+                            <option value="1">Projekt_1</option>
+                            <option value="2">Projekt_2</option>
+                            <option value="3">Projekt_3</option>
+                        </select>
+                        <br>
+                        <br>
+                        <button type="button" class="btn btn-primary">
+                            Auswählen
+                        </button>
+                        <button type="button" class="btn btn-primary">
+                            Bearbeiten
+                        </button>
+                        <button type="button" class="btn btn-danger">
+                            Löschen
+                        </button>
+                        <h4> Projekte bearbeiten/erstellen: </h4>
 
-                <div class="col" >
-                    <div card="card">
-                        <div class ="card-header"> Aufgeschoben :</div>
-                    </div>
-                    <ul class="list-group">
-                        <li class="list-group-item">Für die Uni lernen (Petra Müller)</li>
-                    </ul>
+                        <div class ="form-group">
+                            <label  for ="Projektname"> Projektname: </label>
+                            <input type="projektname" class="form-control" id="projektname">
+                        </div>
+                        <div class ="form-group">
+                            <label  for ="Projektbeschreibung"> Projektbeschreibung: </label>
+                            <textarea class="form-control" id="beschreibung"></textarea>
+                        </div>
+                        <br>
+                        <button type="button" class="btn btn-primary">
+                            Speichern
+                        </button>
+                        <button type="button" class="btn btn-info">
+                            Reset
+                        </button>
+                    </form>
                 </div>
-            </div>
-        </div>
+                    <div class="col-2">
+                    </div>
 
 
-    </div>
+
+                </div>
 
 
 </div>
