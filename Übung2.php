@@ -9,8 +9,9 @@
 </head>
 <body>
 <div class="container-fluid">
-    <div  class="jumbotron text-center">
-        <h1>Aufgabenplaner : Login </h1>
+    <?php $text = "Login";
+    include ("Header.php"); ?>
+
     </div>
   <div class ="row">
       <div class ="col-2">
